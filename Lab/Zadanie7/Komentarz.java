@@ -22,6 +22,8 @@ public LocalDate getDate() {
 	return date;
 }
 
+
+
 public String toString(){
 return "Komentarz \nAutor: "+author+"\nZawartosc: "+content+" Data: "+date;
 }

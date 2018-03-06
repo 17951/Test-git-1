@@ -13,6 +13,15 @@ public Wpis(String title,String content) {
 public void add(Komentarz comment) {
 	comments.add(comment);
 }
+
+public int numberOfComments() {
+	return comments.size();
+}
+public List<Komentarz> listaKomentarzy(){
+	return comments;
+}
+
+
 public String toString() {
 StringBuilder sb=new StringBuilder();
 sb.append("\nWpis: ");
