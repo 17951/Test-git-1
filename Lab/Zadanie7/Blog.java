@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Blog {
  private ArrayList<Wpis> notes=new ArrayList<>();
@@ -17,6 +18,24 @@ public void add(Wpis note) {
 
 public String toString() {
 	return "Blog pod tytulem\n"+ title+" \n"+notes;
+}
+
+
+public Wpis mostPopular() {
+	
+	return null;
+	
+}
+
+public List<Wpis> mostPopulars() {
+	
+	return null;
+	
+}
+public Komentarz lastComment() {
+	
+	return null;
+	
 }
 
 }
