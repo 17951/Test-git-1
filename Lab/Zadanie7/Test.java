@@ -16,6 +16,7 @@ public class Test {
 		b.add(w1);
 		b.add(w2);
 		b.add(w3);
+		//nowy komentarz
 		
 		
 		System.out.println(b);
